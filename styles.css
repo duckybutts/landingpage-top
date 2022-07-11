@@ -1,6 +1,7 @@
 body {
   background-color: white;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 
 /* Section 1 */
@@ -16,7 +17,9 @@ body {
   align-items: center;
   margin: 20px 100px;
 }
-
+.logo {
+  font-size: 20px;
+}
 nav:last-child {
   margin-right: -15px;
 }
@@ -58,7 +61,7 @@ nav:last-child {
   color: rgba(234, 234, 234, 0.876);
 }
 
-button {
+.button {
   border-radius: 5px;
   border: none;
   background-color: #3882f6;
@@ -68,7 +71,114 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3882f6;
   background-color: white;
+}
+
+/* Section 2 */
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.section-2 {
+  height: 400px;
+}
+
+.images-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bunnycontainer-img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bunny-text {
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+/* section 3 */
+
+.section-3 {
+  background-color: #e5e7eb;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockquote {
+}
+
+.blockquote-text {
+  font-style: oblique;
+  padding: 50px 350px 0px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.blockquote-text-credit {
+  padding-top: 0px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.blockquote-text-credit::before {
+  /* creates an element before to add a "-" */
+  content: "\2014\0020";
+  /* long dash and space */
+}
+
+/* section 4 */
+
+.section-4 {
+  display: flex;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.action-box {
+  background-color: #3882f6;
+  width: 75%;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  gap: 200px;
+}
+
+.text-content2 {
+  /* call to action text content */
+  padding: 20px;
+  margin-left: 40px;
+}
+.call-to-action {
+  font-size: 20px;
+}
+.sign-up {
+  font-size: 10px;
+  font-weight: lighter;
+}
+.button2 {
+  border: 1px solid white;
+  justify-content: flex-start;
+  height: 40px;
+  align-self: center;
+  width: 300px;
 }
