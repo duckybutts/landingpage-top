@@ -172,6 +172,7 @@ h3 {
   color: white;
   display: flex;
   gap: 100px;
+  justify-content: center;
 }
 
 .text-content2 {
